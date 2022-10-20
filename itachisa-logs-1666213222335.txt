@@ -1,0 +1,34 @@
+2022-10-19T20:42:35.801985+00:00 app[api]: Set AQUA_SESSION, NO_ONLINE, ANTI_BOT, ONLY_GROUP, REMOVE_BG_API_KEY, OWN_NAME, OWN_NUMBER, AUTO_REACT, URL_1NAME, URL_1LINK, URL_2NAME, URL_2LINK, FOOTER, ANTI_LINK, CAPTION, INBOX_BLOCK, INBOX_BLOCK_MSG, ALIVE_MESSAGE, ALIVE_LOGO, SONG_DOWN, SONG_UP, VIDEO_DOWN, VIDEO_UP, FILE_DOWN, FILE_UP, STIC_WM, WORK_TYPE, SUDO, LANGUAGE, HEROKU, HEROKU_API_KEY, HEROKU_APP_NAME, BAN_MESSAGE, ADD_MESSAGE, PROMOTE_MESSAGE, DEMOTE_MESSAGE, MUTE_MESSAGE, UNMUTE_MESSAGE, KICKME_MESSAGE config vars by user deeprajsingh973@gmail.com
+2022-10-19T20:42:36.832862+00:00 app[api]: Running release v5 commands by user deeprajsingh973@gmail.com
+2022-10-19T20:42:36.832862+00:00 app[api]: Attach DATABASE (@ref:postgresql-tapered-81812) by user deeprajsingh973@gmail.com
+2022-10-19T20:42:36.846547+00:00 app[api]: Release v6 created by user deeprajsingh973@gmail.com
+2022-10-19T20:42:36.846547+00:00 app[api]: @ref:postgresql-tapered-81812 completed provisioning, setting DATABASE_URL. by user deeprajsingh973@gmail.com
+2022-10-19T20:42:37.000000+00:00 app[api]: Build started by user deeprajsingh973@gmail.com
+2022-10-19T20:47:39.000000+00:00 app[api]: Build succeeded
+2022-10-19T20:47:39.788380+00:00 app[api]: Release v7 created by user deeprajsingh973@gmail.com
+2022-10-19T20:47:39.788380+00:00 app[api]: Deployed worker (d1d4078ce395) by user deeprajsingh973@gmail.com
+2022-10-19T20:57:43.514913+00:00 app[api]: Scaled to worker@1:Free by user deeprajsingh973@gmail.com
+2022-10-19T20:58:01.026583+00:00 heroku[worker.1]: Restarting
+2022-10-19T20:58:17.439644+00:00 heroku[worker.1]: Starting process with command `/bin/sh -c npm\ start`
+2022-10-19T20:58:18.819148+00:00 heroku[worker.1]: Stopping all processes with SIGTERM
+2022-10-19T20:58:19.031480+00:00 heroku[worker.1]: Process exited with status 143
+2022-10-19T20:58:31.182287+00:00 heroku[worker.1]: Starting process with command `/bin/sh -c npm\ start`
+2022-10-19T20:58:31.776806+00:00 heroku[worker.1]: State changed from starting to up
+2022-10-19T20:58:32.667754+00:00 app[worker.1]: 
+2022-10-19T20:58:32.667764+00:00 app[worker.1]: > Aquabot-MD@1.0.0 start /root/aquabot
+2022-10-19T20:58:32.667765+00:00 app[worker.1]: > supervisor -s bot.js
+2022-10-19T20:58:32.667765+00:00 app[worker.1]: 
+2022-10-19T20:58:32.714204+00:00 app[worker.1]: 
+2022-10-19T20:58:32.714603+00:00 app[worker.1]: Running node-supervisor with
+2022-10-19T20:58:32.714639+00:00 app[worker.1]:   program 'bot.js'
+2022-10-19T20:58:32.714663+00:00 app[worker.1]:   --watch '.'
+2022-10-19T20:58:32.714689+00:00 app[worker.1]:   --extensions 'node,js'
+2022-10-19T20:58:32.714713+00:00 app[worker.1]:   --exec 'node'
+2022-10-19T20:58:32.714740+00:00 app[worker.1]: 
+2022-10-19T20:58:32.714845+00:00 app[worker.1]: Starting child process with 'node bot.js'
+2022-10-19T20:58:32.751097+00:00 app[worker.1]: Watching directory '/root/aquabot' for changes.
+2022-10-19T20:58:32.751119+00:00 app[worker.1]: Press rs for restarting the process.
+2022-10-19T20:58:35.369853+00:00 app[worker.1]: Loading EN language...
+2022-10-19T20:58:39.167998+00:00 app[worker.1]: 📡checking session code...
+2022-10-19T20:58:40.351774+00:00 app[worker.1]: 🪢session Code Verification Completed
+2022-10-19T20:58:41.084570+00:00 app[worker.1]: ✅connected
